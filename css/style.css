@@ -1,0 +1,165 @@
+body{
+	font-family: arial, helvetica;
+	background: lawngreen;
+	background-image: url(../img/baner.png);
+	background-repeat: repeat;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	background: mediumvioletred;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	position: auto;
+	vertical-align: auto;
+	text-align: center;
+	border-style: groove;
+	border-color: whitesmoke;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: whitesmoke;
+
+}
+
+
+ul ul{
+	position: absolute;
+	display: none;
+}
+
+
+ul ul li{
+	display: block;
+}
+
+ul li:hover ul{
+	display: block;
+
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+justify-content: left;
+}
+.text-right{
+justify-content: right;
+}
+
+img{
+	border-style: groove;
+	border-radius: auto;
+}
+nav{
+	width: 100%;
+}
+p{
+	color: whitesmoke;
+	border-style: groove;
+	border-color: darkorange;
+	background: black;
+	padding: 0;
+	width: auto;
+	margin: auto;
+	position: auto;
+	vertical-align: auto;
+	text-align: center;
+}
+
+ h2{
+	color: lightyellow;
+	background-color: grey;
+	padding: 0;
+	width: 20%;
+	text-align: center;
+	margin: auto;
+	position: auto;
+	vertical-align: auto;
+	text-align: center;
+}
+
+footer h3{
+	border-style: groove;
+	border-color: darkred;
+	width: 20%;
+	padding: 0;	
+	margin: auto;
+	background-color: whitesmoke;
+}
+
+fieldset legend{
+	background-color: whitesmoke;
+	display: flex;
+}	
+
+body header nav h1{
+	color: whitesmoke;
+}
+
+.text-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: gray;
+	padding: 20px;
+}
+
+#img-center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	text-align: center;
+}
+
+section table tr td{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+table{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	background-color: palevioletred;
+
+
+}
+
+.padding{
+	padding: 10px;
+	background: darkgray;
+}
+
+h1{
+	background-color: darkgray;
+	width: 100%;
+    text-align: center
+}
+
+fieldset {
+	background-color: aliceblue;
+
+}
