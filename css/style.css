@@ -38,7 +38,8 @@ h3 {
 body {
   font-family: arial, helvetica;
   background: #008616;
-  background: linear-gradient(90deg, #007e1f 0%, #f9f0e9 68%, white 100%); }
+  background: linear-gradient(90deg, #007e1f 0%, #f9f0e9 68%, white 100%); 
+  overflow-x: hidden; }
 
 .menu {
   list-style: none;
